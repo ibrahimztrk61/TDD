@@ -1,0 +1,4 @@
+# Project exclude paths
+/builder-pattern/target/
+/tdd-uygulamaları/target/
+/test-pratikleri/target/

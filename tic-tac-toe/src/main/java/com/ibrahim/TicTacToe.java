@@ -7,9 +7,9 @@ public class TicTacToe {
 
     public TicTacToe() {
         board = new char[][]{
-                {'#', '#', '#'},
-                {'#', '#', '#'},
-                {'#', '#', '#'}};
+                {' ', ' ', ' '},
+                {' ', ' ', ' '},
+                {' ', ' ', ' '}};
     }
 
 
@@ -35,7 +35,7 @@ public class TicTacToe {
     }
 
     private void validateIndex(int row, int column) {
-        if (!(board[row][column] == '#')) {
+        if (!(board[row][column] == ' ')) {
             throw new IllegalArgumentException("This position is not empty");
         }
     }
@@ -61,5 +61,8 @@ public class TicTacToe {
 
     public void setTurn(SignEnum turn) {
         this.turn = turn;
+    }
+    public void otherPlayer (){
+
     }
 }

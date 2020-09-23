@@ -2,19 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="count-words" />
-        <module name="tic-tac-toe" />
         <module name="unit-test-denemeleri" />
-        <module name="builder-pattern" />
-        <module name="tdd-uygulamaları" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="builder-pattern" target="1.8" />
+      <module name="count-words" target="1.8" />
+      <module name="tdd-uygulamaları" target="11" />
       <module name="test-pratikleri" target="11" />
+      <module name="tic-tac-toe-youtube" target="1.8" />
       <module name="unit-test-denemeleri" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -23,7 +24,8 @@
       <module name="practices" options="" />
       <module name="tdd-uygulamaları" options="-parameters" />
       <module name="test-pratikleri" options="-parameters" />
-      <module name="tic-tac-toe" options="-parameters" />
+      <module name="tic-tac-toe" options="" />
+      <module name="tic-tac-toe-youtube" options="-parameters" />
     </option>
   </component>
 </project>
